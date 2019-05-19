@@ -11,6 +11,7 @@ int Solution::solve(vector<int> &A) {
         while(i+1 < n && A[i] == A[i+1]){
             i++;
         }
+        //Since the array is sorted, 
         
         if(n - (i+1) == A[i]){
             ans = 1;
